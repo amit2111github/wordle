@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#box {
+  width: 310px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+body > h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  border-bottom: 1px solid #d3d6da;
+}
+.tile {
+  width: 55px;
+  height: 55px;
+  display: inline-flex;
+  justify-content: center;
+  border: 2px solid #d3d6da;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  margin: 0 6px 0 0;
+  height: 58px;
+  width: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #d3d6da;
+  color: #1a1a1b;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+.keyboardrow {
+  margin-top: 6px;
+}
